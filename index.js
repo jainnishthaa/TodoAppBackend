@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 4444;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: "4kb" }));
 app.use(cors({
-    origin: ["https://todo-app-frontend-theta.vercel.app/"],
+    origin: ["https://todo-app-frontend-theta.vercel.app"],
     credentials: true
 }))
 
